@@ -1,0 +1,6 @@
+@Rushea.Identity.API_HostAddress = http://localhost:5240
+
+GET {{Rushea.Identity.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

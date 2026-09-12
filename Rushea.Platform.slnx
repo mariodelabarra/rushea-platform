@@ -1,10 +1,8 @@
 <Solution>
   <Folder Name="/cicd/" />
-  <Folder Name="/src/">
-    <Project Path="src/Rushea.Api/Rushea.Api.csproj" Id="0fd95a67-9d30-4c7d-bf54-86b015f98bea" />
-  </Folder>
+  <Folder Name="/src/" />
   <Folder Name="/src/Identity/">
+    <Project Path="src/Identity/Rushea.Identity.API/Rushea.Identity.API.csproj" Id="550312eb-c1a8-4868-8a62-04115301a14c" />
     <Project Path="src/Identity/Rushea.Identity.UnitTests/Rushea.Identity.UnitTests.csproj" Id="79c1294d-6cf7-4f46-baf6-d4282016d990" />
-    <Project Path="src/Identity/Rushea.Identity/Rushea.Identity.csproj" Id="097f3d0e-8b23-4cc5-ac91-ddfb31db5f4d" />
   </Folder>
 </Solution>
