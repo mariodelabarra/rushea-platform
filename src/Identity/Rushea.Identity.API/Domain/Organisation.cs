@@ -4,7 +4,7 @@ namespace Rushea.Identity.API.Domain;
 
 public class Organisation : BaseEntity
 {
-    public required string Name { get; init; }
+    public required string Name { get; set; }
     public OrganisationStatus Status { get; set; } = OrganisationStatus.Active;
 }
 

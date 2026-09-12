@@ -10,6 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="FluentValidation.AspNetCore" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
@@ -25,8 +27,6 @@
     <Folder Include="Data\Migrations\" />
     <Folder Include="Data\Configurations\" />
     <Folder Include="Features\Sites\" />
-    <Folder Include="Features\Organisations\Services\" />
-    <Folder Include="Shared\" />
   </ItemGroup>
 
 </Project>
