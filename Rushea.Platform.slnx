@@ -1,8 +1,17 @@
 <Solution>
   <Folder Name="/cicd/" />
+  <Folder Name="/config/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="nuget.config" />
+  </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/Identity/">
     <Project Path="src/Identity/Rushea.Identity.API/Rushea.Identity.API.csproj" Id="550312eb-c1a8-4868-8a62-04115301a14c" />
     <Project Path="src/Identity/Rushea.Identity.UnitTests/Rushea.Identity.UnitTests.csproj" Id="79c1294d-6cf7-4f46-baf6-d4282016d990" />
+  </Folder>
+  <Folder Name="/src/Inventory/">
+    <Project Path="src/Inventory/Rushea.Inventory.API/Rushea.Inventory.API.csproj" Id="f7b5cbe1-678f-43c6-bc2c-3e4bc00b7cbf" />
+    <Project Path="test/Inventory/Rushea.Inventory.UnitTests/Rushea.Inventory.UnitTests.csproj" Id="48be53d8-554d-472e-b8d5-833d9d71b637" />
   </Folder>
 </Solution>
