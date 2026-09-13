@@ -21,6 +21,7 @@ public class DeleteOrganisationService(IdentityDbContext dbContext) : IDeleteOrg
             return Results.NotFound();
         }
         organisation.Status = OrganisationStatus.Suspended;
+        organisation.UpdatedAtUtc = DateTimeOffset.UtcNow;
         await dbContext.SaveChangesAsync(cancellationToken);
 
         return Results.NoContent();
