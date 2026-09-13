@@ -20,5 +20,13 @@ public class OrganisationConfiguration : IEntityTypeConfiguration<Organisation>
             .HasConversion<string>()
             .HasMaxLength(20)
             .IsRequired();
+
+        builder.Property<string>("NormalizedName")
+            .HasMaxLength(200)
+            .HasComputedColumnSql("lower(\"Name\")", stored: true);
+
+        builder.HasIndex("NormalizedName")
+            .IsUnique()
+            .HasDatabaseName("ix_organisations_normalized_name");
     }
 }
