@@ -26,7 +26,7 @@
   <ItemGroup>
     <Folder Include="Data\Migrations\" />
     <Folder Include="Data\Configurations\" />
-    <Folder Include="Features\Sites\" />
+    <Folder Include="Features\Sites\Delete\" />
   </ItemGroup>
 
 </Project>

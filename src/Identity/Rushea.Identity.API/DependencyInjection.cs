@@ -18,6 +18,7 @@ public static class DependencyInjection
 
         // Services Registrations
         RegisterOrganisationServices(services);
+        RegisterSiteServices(services);
     }
 
     public static void RegisterValidation(IServiceCollection services)
